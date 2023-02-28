@@ -4,6 +4,8 @@ from sklearn.linear_model import LinearRegression
 import datetime as dt
 import streamlit as st
 
+
+
 # User input
 stock_symbol = st.text_input("Enter a stock symbol (e.g. AAPL):", "AAPL")
 
