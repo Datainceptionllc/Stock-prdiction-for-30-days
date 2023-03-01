@@ -1,7 +1,8 @@
-from sklearn.preprocessing import PolynomialFeatures
+
 import yfinance as yf
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
 import datetime as dt
 import streamlit as st
 from numpy import source
